@@ -176,6 +176,9 @@ ClientBin/
 ~$*
 *~
 *.dbmdl
+*.db
+*.db-shm
+*.db-wal
 *.dbproj.schemaview
 *.pfx
 *.publishsettings
@@ -232,3 +235,5 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 
+
+.ionide
