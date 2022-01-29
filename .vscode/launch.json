@@ -5,6 +5,16 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "identifier": "ng serve",
+            "type": "npm",
+            "script": "start",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
             "name": ".NET Core Launch (web)",
             "type": "coreclr",
             "request": "launch",
